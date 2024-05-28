@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Positive">
+    <test name="Positive">
+        <classes>
+            <class name="tests.AddLikeTest" />
+            <class name="tests.GetListLikesTest"></class>
+            <class name="tests.DeleteLikesTest"></class>
+            <class name="tests.IsLikedTest"></class>
+        </classes>
+    </test>
+</suite>
